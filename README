@@ -1,0 +1,11 @@
+This is a little proof of concept program to serve pages from memcache, similar to the nginx module that pulls pages direct from memcache.
+
+It's written in PHP at the moment so might not be as fast as it can be.  
+
+It is header aware - as in the cached version has header information included with it so the correct http status code can be sent with the http response.
+
+TODO
+
+Try compiling into hiphop to test performance.
+
+Try writing in another language - again to test performance (possible python or scala)
